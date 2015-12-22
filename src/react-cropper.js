@@ -2,7 +2,6 @@ import React from 'react';
 
 import Cropper from 'cropperjs';
 import 'cropperjs';
-import 'cropperjs/dist/cropper.css';
 
 /**
  * Utilities extracted from https://github.com/fengyuanchen/cropperjs/blob/master/src/js/utilities.js

@@ -1,5 +1,5 @@
 {
-  "name": "react-cropperjs",
+  "name": "@nib-components/react-cropperjs",
   "version": "1.0.3",
   "description": "Cropper as React components",
   "main": "dist/react-cropper.js",
