@@ -2,18 +2,18 @@
   "name": "@nib-components/react-cropperjs",
   "version": "1.0.3",
   "description": "Cropper as React components",
-  "main": "dist/react-cropper.js",
+  "main": "dist/nib-react-cropper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./",
-    "build": " babel src/react-cropper.js --out-file dist/react-cropper.js",
+    "build": " babel src/nib-react-cropper.js --out-file dist/nib-react-cropper.js",
     "prepublish": "npm run build",
     "prebuild": "npm run lint",
     "build-example": "npm run build && webpack example/index.js --config example/webpack.config.js --output-path example/assets"
   },
-  "author": "Fong Kuanghuei <waneblade@gmail.com>",
+  "author": "nib Healthfunds ltd.",
   "bugs": {
-    "url": "https://github.com/TAPP-TV/react-cropperjs/issues"
+    "url": "https://github.com/nib-components/react-cropperjs/issues"
   },
   "keywords": [
     "react",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TAPP-TV/react-cropperjs.git"
+    "url": "https://github.com/nib-components/react-cropperjs.git"
   },
   "dependencies": {
     "cropperjs": "^0.5.2"
